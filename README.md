@@ -26,7 +26,7 @@
     ```
 
 
-### Developing your own RTI-ROS package using the code generator
+### Developing your own DDS-ROS package using the code generator
 
 1. Change the IDL file based on the message you want to pub-sub
 
