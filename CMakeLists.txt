@@ -53,11 +53,11 @@ include_directories(
   include
 )
 
-add_executable(dds_bridge 
+add_executable(fastrtps_ros 
   src/VelocitiesPubSubMain.cxx
 )
 
-target_link_libraries(dds_bridge 
+target_link_libraries(fastrtps_ros 
   fastrtps 
   fastcdr
   Velocities_fast_lib
